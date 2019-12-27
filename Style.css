@@ -1,0 +1,35 @@
+
+[type="button"], button, input, #TimeBar 
+			{ font-family: arial, helvetica;	font-size:	10pt; }
+
+#TimeBar	{ text-align: center; }
+
+[type="button"], input,
+button			{ height    : 23px;
+				  width		: 90px;
+				  padding	: 1px 0px;  /* top/bot & L/R padding round text */
+				  border    : outset 2px #DDDDDD;
+				  outline   : 1px none blue;
+				  text-align: center;  
+				}			/* Buttons */
+
+body		{ margin: 0px; } 				/* NoMargin */
+body 		{ overflow: hidden; } 			/* NoScrollbar */
+
+#ProgressBar 
+{ 	position: absolute; 
+	top		: 40%; 
+	left	: 33%;
+	width	: 20%;
+	z-index : 760;
+	border	: 1px solid black; 
+	background-color: #EEEEEE;
+	display : none; /* block; none; */  
+}		/* ProgressBar */
+
+#TimeBar 
+{	width	: 0%;
+	height	: 19px;
+	background-color: gold;
+}		/* TimeBar */
+
